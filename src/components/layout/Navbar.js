@@ -32,9 +32,13 @@ const Navbar = () => {
         <Link className="btn btn-outline-light" to="/users/add">
           Add User
         </Link>
-        <Link className="btn btn-secondary ml-2" to="/users/add">
-          Send
-        </Link>
+        <a
+          className="btn btn-outline-light"
+          style={{ border: "black", marginLeft: 10 }}
+          href="mailto:info@redpositive.in?&subject=Demo mail&body=Some body text here"
+        >
+          Send Email
+        </a>
       </div>
     </nav>
   );
