@@ -17,7 +17,7 @@ function App(props) {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/users/add" component={AddUser} />
-          <Route exact path="/users/send" component={sendMail} />
+       
           <Route exact path="/users/edit/:id" component={EditUser} />
         </Switch>
       </div>
