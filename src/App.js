@@ -6,7 +6,7 @@ import Navbar from "./components/layout/Navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import AddUser from "./components/users/AddUser";
 import EditUser from "./components/users/EditUser";
-import sendMail from "./components/users/sendMail";
+// import sendMail from "./components/users/sendMail";
 
 function App(props) {
   return (
